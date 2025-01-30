@@ -1,0 +1,76 @@
+site_name: Panduan Aplikasi APPASI
+# site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  
+  # Mengatur font
+  font:
+    text: Open Sans
+    code: JetBrains Mono
+
+  # icon:
+    # logo: material/book
+  favicon: Images/LOGO_APPASI.png
+  logo: Images/LOGO_APPASI.png
+
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+
+  
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # Fitur
+  - attr_list
+  # Keyboard
+  - pymdownx.keys
+
+
+# Footer
+copyright: Made with ❤️ by KELOMPOK 1 | &copy; 2025
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/
+
