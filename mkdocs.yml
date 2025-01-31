@@ -45,7 +45,9 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
 
-
+  features:
+    # - navigation.footer
+    # - navigation.tabs
   
 
 plugins:
@@ -73,4 +75,22 @@ extra:
       link: https://instagram.com/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/
+     
+     
+nav:
+  - Panduan Aplikasi APPASI:
+      - Selamat Datang: index.md
+      - Pendahuluan: Pendahuluan.md
+      - Instalasi: Instalasi.md
+      - Panduan Penggunaan: Panduan Penggunaan.md
+      - Pengembangan: Pengembangan.md
+      - Persyaratan: Persyaratan.md
+      - Lampiran: lampiran.md
+      - Penutup: penutup.md
+
+
+
+
+      
+
 

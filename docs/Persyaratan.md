@@ -1,32 +1,27 @@
-## Tujuan Dokumentasi
+# Persyaratan Sistem
 
-Dokumentasi ini bertujuan untuk memberikan panduan lengkap bagi pengguna dalam menginstal, mengoperasikan, dan memelihara aplikasi. Selain itu, dokumen ini juga dirancang untuk membantu memahami struktur aplikasi hingga proses pengembangan lebih lanjut, termasuk penambahan fitur baru atau perbaikan sistem.
+## Spesifikasi Server
 
-## Deskripsi Aplikasi
+Spesifikasi komputer server yang dibutuhkan untuk menjalankan aplikasi ini adalah:
 
-Aplikasi APPASI adalah sebuah sistem berbasis web yang dirancang untuk mempermudah guru dan Anggota OSIS untuk mengabsen, merekap, dan menyimpan data dari absen dan rekap dengan aman
-dan efisien.
+|No|Jenis|Spesifikasi|
+|-|-|-|
+|1|OS|Linux/Windows|
+|2|RAM|Minimun 2GB|
+|3|Penyimpanan|Minimum 10GB ruang kosong|
+|4|Prosesor|Dual-core 2.0 GHz atau lebih tinggi|
 
-## Fitur Utama
+## Perangkat Lunak yang Dibutuhkan
 
-Fitur utama aplikasi APPASI:
+Untuk menjalankan aplikasi ini, pengguna perlu mengisntall beberapa paket aplikasi berikut:
 
-1. **DATA TERPERINCI DAN AKURAT**
+1. Web Server: Apache/Nginx
+2. PHP: Versi 8.0 atau lebih baru
+3. Database: MySQL/MariaDB versi 5.7 atau lebih baru.
 
-    tidak perlu khawatir lagi dengan data siswa
+Untuk mempermudah Penginstallan aplikasi, disarankan menggunakan software [laragon], [XAMPP], [Uwamp] dsb.
 
-2. **PENGABSENAN ONLINE**
+[Laragon]:https://laragon.org/download/
+[XAMPP]:https://www.apachefriends.org/download.html
+[Uwamp]:https://www.uwamp.com/en/
 
-    dapat memudahkan guru untuk mengabsen
-
-3. **REKAP OTOMATIS**
-   
-    tidak perlu repot-repot merekap 
-
-
-## Target Pengguna
-
-Aplikasi ini ditujukan untuk:
-
-1. Anggota OSIS : Mempermudah anggota OSIS untuk mengabsen, merekap, menyimpan data dari absen dan rekap dengan aman dan efisien.
-2. Guru         : Mempermudah guru untuk merekap, menyimpan data dari absen dan rekap dengan aman dan efisien.

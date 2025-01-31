@@ -1,6 +1,6 @@
-# Selamat Datang
+# SELAMAT DATANG
 
-## Di Panduan Aplikasi APPASI
+### DI PANDUAN PENGGUNAAN APLIKASI APPASI
 
 <img src="Images\LOGO_APPASI.png" width="70%">
 
