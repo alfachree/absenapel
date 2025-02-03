@@ -1,32 +1,36 @@
 site_name: Panduan Aplikasi APPASI
-# site_url: https://mydomain.org/mysite
+site_url: https://alfachree.github.io/Panduan-aplikasi-absen/
+site_author: KELOMPOK 1
+site_description: 
+  Panduan Aplikasi Absensi Apel
 theme:
   name: material
   palette:
+   # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Mode terang
 
     # Palette toggle for light mode
-    - scheme: default
-      primary: green
-      accent: green
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
       toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
+        icon: material/brightness-7
+        name: Mode gelap
 
     # Palette toggle for dark mode
-    - scheme: slate
-      primary: green
-      accent: green
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
+        icon: material/brightness-4
+        name: Mode otomatis
   
   # Mengatur font
   font:
     text: Open Sans
     code: JetBrains Mono
 
-  # icon:
-    # logo: material/book
   favicon: Images/LOGO_APPASI.png
   logo: Images/LOGO_APPASI.png
 
@@ -57,40 +61,29 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  # Fitur
   - attr_list
-  # Keyboard
   - pymdownx.keys
 
 
 # Footer
 copyright: Made with ❤️ by KELOMPOK 1 | &copy; 2025
 
+nav:
+  - Panduan Aplikasi APPASI:
+      - Selamat Datang: index.md
+      - Pendahuluan: Pendahuluan.md
+      - Persyaratan: Persyaratan.md
+      - Instalasi: Instalasi.md
+      - Panduan Penggunaan: Panduan Penggunaan.md
+      - Pengembangan: Pengembangan.md
+      - Lampiran: lampiran.md
+      - Penutup: penutup.md
+
 extra:
-  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/
-     
-     
-nav:
-  - Panduan Aplikasi APPASI:
-      - Selamat Datang: index.md
-      - Pendahuluan: Pendahuluan.md
-      - Instalasi: Instalasi.md
-      - Panduan Penggunaan: Panduan Penggunaan.md
-      - Pengembangan: Pengembangan.md
-      - Persyaratan: Persyaratan.md
-      - Lampiran: lampiran.md
-      - Penutup: penutup.md
-
-
-
-
-      
-
-
+      link: https://www.linkedin.com/
