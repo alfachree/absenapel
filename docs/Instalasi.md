@@ -26,11 +26,11 @@ Untuk mengunduh aplikasi ini, lakukan langkah-langkah berikut:
 Karena aplikasi ini bekerja menggunakan database, maka kita perlu mengatur databasenya terlebih dahulu sebelum dijalankan.
 
 1. Buka aplikasi Laragon.
-    ![laragon](images/laragon.png)
+    ![laragon]
 2. Klik `Database` untuk membuka aplikasi manajemen database Heidi SQL.
-    ![heidi](images/heidi.png)
+    ![heidi]
 3. Biarkan bagian password (kosong), lalu klik **Open**.
-    ![open](images/open.png)
+    ![open]
 4. Saat jendela Heidi SQL terbuka, klik menu `File` > `Run SQL file`, lalu arahkan ke file `apg.sql` yang berada di direktori `C:laragon\www\apg\database` dan klik **Open**. Jika ada peringatan, klik **Yes**.
 5. Selama tidak ada pesan `Error`, berarti database sudah tersedia.
 6. Tekan tombol ++F5++ pada jendela Heidi SQL untuk me-refresh database, maka Anda akan menemukan database `apg` lengkap dengan struktur tabel beserta contoh datanya.
@@ -60,3 +60,6 @@ if (mysqli_connect_errno()) {
 
 3. Karena pada user root tidak perlu memakai password, maka saya rubah `$user = "root";` menjadi `$user = "";`.
 4. Cukup ini saja dan APPASI siap dijalankan.
+
+
+[def]: images/open.png
