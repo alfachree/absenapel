@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
         }
 
         body {
@@ -39,6 +40,10 @@
             display: flex;
             flex-direction: column;
             padding: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
         }
 
         .sidebar h3 {
@@ -60,25 +65,29 @@
         }
 
         .sidebar a:hover {
-            background-color: #78909C;
+            background-color:  #43A047; /* Warna hijau terang saat hover */
         }
+
 
         /* Main Content */
         .main-content {
             flex: 1;
             padding: 20px;
+            margin-left: 250px;
             display: flex;
             flex-direction: column;
             position: relative;
             background-color: #E8F5E9; /* Hijau muda */
+            border-radius: 10px;
+            overflow: hidden;
         }
 
         .table-container {
-            background: #FFFFFF;
+            background: #FFFFFF; /* Latar belakang putih untuk lebih elegan */
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
             margin-bottom: 20px;
+            padding: 20px; /* Tambahkan padding agar ruang lebih lapang */
         }
 
         table {
@@ -118,8 +127,8 @@
         .footer {
             position: absolute;
             bottom: 10px;
-            font-size: 14px;
-            color: #777;
+            font-size: 12px;
+            color: white;
             text-align: center;
             width: 100%;
         }
@@ -129,7 +138,7 @@
     <div class="container">
         <!-- Sidebar -->
         <div class="sidebar">
-            <h3>Menu Utama</h3>
+            <h3>data rekab</h3>
             <a href="#">Menu Absen</a>
             <a href="#">Data Absen</a>
             <a href="#">Data Rekap</a>
@@ -180,8 +189,9 @@
                 </table>
             </div>
             <div class="info">"Anda dapat melihat data rekap per siswa dengan cara mengklik nama pada halaman ini"</div>
-            <div class="footer">© 2025 Copyright | Kelompok 1</div>
         </div>
     </div>
+
+    <div class="footer">© 2025 Copyright | Kelompok 1</div>
 </body>
 </html>

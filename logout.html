@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Logout</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            background: linear-gradient(135deg, #8E24AA,#21867a);
+        }
+        .sidebar {
+            width: 20%;
+            background: #222;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .sidebar h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .sidebar button {
+            background: none;
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .sidebar button:hover {
+            color: #bbb;
+        }
+        .logout-btn {
+            background: #444;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        .buttons {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .buttons button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cancel-btn {
+            background: #ccc;
+        }
+        .logout-confirm-btn {
+            background: red;
+            color: white;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Menu Absen</h2>
+        <button><i class="fas fa-home"></i> Data Absen</button>
+        <button><i class="fas fa-clipboard-list"></i> Data Rekap</button>
+        <button><i class="fas fa-cog"></i> Pengaturan</button>
+        <button class="logout-btn"><i class="fas fa-sign-out-alt"></i> Keluar</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="modal">
+            <h3>Apakah Anda yakin ingin keluar?</h3>
+            <div class="buttons">
+                <button class="cancel-btn">Batal</button>
+                <button class="logout-confirm-btn">Keluar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        @ 2025 Copyright | Kelompok 1
+    </div>
+
+</body>
+</html>
