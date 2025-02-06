@@ -34,6 +34,7 @@ theme:
   favicon: Images/LOGO_APPASI.png
   logo: Images/LOGO_APPASI.png
 
+
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
@@ -79,6 +80,7 @@ nav:
       - Penutup: penutup.md
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/
